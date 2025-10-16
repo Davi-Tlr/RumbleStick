@@ -1,8 +1,8 @@
-# Documentação do Projeto: RumbleStick
-
+# Projeto: RumbleStick
+![Página Inicial da RumbleStick](./screenshots/hero.png)
 ## 1. Visão Geral do Projeto
 
-O RumbleStick é um site fictício desenvolvido como parte do TCC do curso da Microcamp. O objetivo principal deste projeto é apresentar uma empresa indie brasileira de jogos com uma identidade cultural forte e um toque de humor.
+O RumbleStick é um site fictício desenvolvido como parte do TCC do curso de informática da Microcamp. O objetivo principal deste projeto é apresentar uma empresa indie brasileira de jogos com uma identidade cultural forte e um toque de humor.
 
 ## 2. Especificações Técnicas e Detalhes da Arquitetura
 
@@ -62,10 +62,11 @@ O layout pode ser adaptado para mostrar projetos reais de jogos ou produtos digi
 
 Ideal para quem deseja criar uma identidade visual única e divertida, o site pode ser utilizado por estúdios de jogos indie para atrair a atenção de clientes e usuários.
 
+![Seção de Sobre da RumbleStick](./screenshots/about.png)
+
 ## 6. Documentação de Funções/Métodos
 
 Atualmente, não há uma API interna ou métodos complexos, uma vez que o site é estático. As interações são feitas através de funções JavaScript simples.
-
 
 ## 7. Tratamento de Erros e Solução de Problemas
 
@@ -86,4 +87,4 @@ Se você encontrar problemas, siga estas etapas:
 
 O RumbleStick oferece uma base divertida e única para qualquer estúdio indie que deseja se destacar online. Com a estrutura fácil de usar e a possibilidade de personalização, ele se torna uma ferramenta valiosa para a promoção de jogos e estúdios criativos.
 
-Para mais informações, sinta-se à vontade para acessar o projeto ao vivo no seguinte link: [RumbleStick](https://rumblestick.netlify.app/).
+Para mais informações, sinta-se à vontade para acessar o projeto em tempo real no seguinte link: [RumbleStick](https://rumblestick.netlify.app/).
