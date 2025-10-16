@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  --first-color: #f2312b;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --text-color: #ffffff;
+  --text-alt-color: #f1faee;
+  --title-color: #ffffff;
+  --body-color: #020100;
+  --box-color: #0f0f0fcc;
+  --gradient-body-color: linear-gradient(180deg, #161616, #020000);
+  --gradient-first-color: linear-gradient(
+    180deg,
+    #020000,
+    #f2312b,
+    #f2312b,
+    #f2312b,
+    #f2312b,
+    #f2312b
+  );
+  --shadow-color: drop-shadow(0 16px 24px #0c0c0c);
+  --muted: #b8b8b8;
+  --text-muted: #d0d0d0;
+  --text-secondary: #e8e8e8;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Inter", sans-serif;
+  --second-font: "Montserrat", sans-serif;
+  --biggest-font-size: 3rem;
+  --bigger-font-size: 2.5rem;
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 6rem;
+    --bigger-font-size: 4.5rem;
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ICONS -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/reusables.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- CSS -->
+    <title>Contato - RumbleStick</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img
+            src="assets/logos/Rumblestick-Icon-small.png"
+            alt="RumbleStick-Logo"
+          />
+          <span class="logo__text"
+            >Rumble<span class="highlight">Stick</span></span
+          >
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li>
+              <a href="jogos.html" class="nav__link">Jogos</a>
+            </li>
+
+            <li>
+              <a href="sobre.html" class="nav__link">Sobre</a>
+            </li>
+
+            <li>
+              <a href="contato.html" class="nav__link">Contato</a>
+            </li>
+
+            <li>
+              <a
+                href="https://store.steampowered.com/search/?publisher=RumbleStick"
+                class="nav__link"
+                target="_blank"
+              >
+                Steam <i class="bx bx-link-alt highlight"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="https://twitter.com/home"
+                class="nav__link"
+                target="_blank"
+                >Twitter <i class="bx bxl-twitter highlight"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/"
+                class="nav__link"
+                target="_blank"
+                >Youtube <i class="bx bxl-youtube highlight"></i
+              ></a>
+            </li>
+          </ul>
+          <!-- Botão Fechar -->
+          <div class="nav__close" id="nav-close">
+            <i class="bx bxs-x"></i>
+          </div>
+        </div>
+        <!-- Botão Abrir -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bxs-menu-wide"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== CONTACT ====================-->
+      <section class="about section" id="contact">
+        <div class="about__container container">
+          <div class="about__data">
+            <span class="about__subtitle">Fale Conosco</span>
+            <h2 class="section__title">Entre em Contato</h2>
+            <p class="about__description">
+              Tem uma ideia incrível? Quer fazer uma parceria? Ou simplesmente 
+              quer bater um papo sobre jogos retrô? Adoraríamos ouvir de você! 
+              Nossa equipe está sempre aberta para novas oportunidades e conexões.
+            </p>
+          </div>
+
+          <div class="contact__container grid">
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-envelope highlight" style="font-size: 24px;"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <p class="contact__card-data">contato@rumblestick.com.br</p>
+                <p class="contact__card-data">parcerias@rumblestick.com.br</p>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bx-phone highlight" style="font-size: 24px;"></i>
+                <h3 class="contact__card-title">Telefone</h3>
+                <p class="contact__card-data">+55 (21) 99999-9999</p>
+                <p class="contact__card-description">Segunda a Sexta, 9h às 18h</p>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bx-map highlight" style="font-size: 24px;"></i>
+                <h3 class="contact__card-title">Localização</h3>
+                <p class="contact__card-data">Rio de Janeiro, RJ</p>
+                <p class="contact__card-description">Brasil</p>
+              </div>
+            </div>
+
+            <form class="contact__form">
+              <div class="contact__form-group">
+                <label for="name" class="contact__form-label">Nome</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="contact__form-input" 
+                  placeholder="Seu nome completo"
+                  required
+                />
+              </div>
+
+              <div class="contact__form-group">
+                <label for="email" class="contact__form-label">Email</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="contact__form-input" 
+                  placeholder="seu@email.com"
+                  required
+                />
+              </div>
+
+              <div class="contact__form-group">
+                <label for="subject" class="contact__form-label">Assunto</label>
+                <select id="subject" name="subject" class="contact__form-input" required>
+                  <option value="">Selecione um assunto</option>
+                  <option value="parceria">Parceria</option>
+                  <option value="suporte">Suporte</option>
+                  <option value="imprensa">Imprensa</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+
+              <div class="contact__form-group">
+                <label for="message" class="contact__form-label">Mensagem</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="contact__form-textarea" 
+                  placeholder="Conte-nos mais sobre sua mensagem..."
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="button contact__form-button">
+                Enviar Mensagem
+                <i class="bx bx-send" style="font-size: 24px;"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">
+          <img
+            src="assets/logos/Rumblestick-Icon-small.png"
+            alt="RumbleStick-Logo"
+          />
+          <span>Rumble<span class="highlight">Stick</span></span>
+        </a>
+        <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">Social</h3>
+            <div class="footer__social">
+              <a href="#" target="_blank" class="footer__social--link"
+                ><i class="bx bx-link-alt highlight"></i
+              ></a>
+              <a href="#" target="_blank" class="footer__social--link"
+                ><i class="bx bxl-youtube highlight"></i
+              ></a>
+              <a href="#" target="_blank" class="footer__social--link"
+                ><i class="bx bxl-twitter highlight"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="footer__title">Assine nossa Newsletter!</h3>
+            <form action="" class="footer__form">
+              <input type="email" placeholder="Email" class="footer__input" />
+              <button class="footer__button button">Assinar</button>
+            </form>
+          </div>
+          <div>
+            <h3 class="footer__title"></h3>
+          </div>
+        </div>
+      </div>
+      <span class="footer__copy"
+        >&#169; Todos os Direitos Reservados por Rumble<span class="highlight"
+          >Stick</span
+        ></span
+      >
+    </footer>
+
+    <!--=============== JS ===============-->
+    <script src="js/header.js"></script>
+  </body>
+</html>

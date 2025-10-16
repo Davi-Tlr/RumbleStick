@@ -1,0 +1,131 @@
+/*=============== BASE ===============*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--black-color);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  font-family: var(--second-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+  font-family: var(--second-font);
+}
+
+.section__title {
+  font-size: var(--big-font-size);
+  margin-bottom: 1rem;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.highlight {
+  color: var(--first-color);
+}
+/*=============== BUTTON ===============*/
+
+.home__button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: inline-flex;
+  background-color: var(--body-color);
+  color: var(--white-color);
+  padding: 1rem 1.5rem;
+  font-weight: var(--font-semi-bold);
+  border-radius: 0.75rem;
+  border: 2px solid var(--white-color);
+  transition: box-shadow, border, color 0.4s;
+}
+
+.button:hover {
+  color: var(--first-color);
+  border: 2px solid var(--first-color);
+  box-shadow: 0 8px 24px rgba(255, 0, 0, 0.2);
+}
+
+/*=============== BUTTON ===============*/
+::-webkit-scrollbar {
+  width: .45rem;
+  background-color: var(--body-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 19, 19);
+}
